@@ -1,0 +1,171 @@
+body {
+    margin: 0 auto;
+    padding: auto;
+    font-family: "Times New Roman", serif, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-color: lightpink;
+}
+
+body {
+    width: 100%;
+    height: 3000px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( rgba(243, 181, 226, 1) 35.7%, rgba(204, 202, 251, 1) 80.2%);
+}
+
+.main {
+    position: relative;
+    text-align: center;
+}
+
+.Header .Logo {
+    position: relative;
+    top: 15px;
+    height: 150px;
+}
+
+.Logo h1 {
+    color: #8c00ff;
+    font: italic bold 86px Georgia, Serif;
+}
+
+.Logo span {
+    position: absolute;
+    font: italic bold 45px Georgia, Serif;
+    top: 75px;
+    margin-left: 90px;
+}
+
+.Logo img {
+    margin-left: -80px;
+    height: 100px;
+    width: 100px;
+}
+
+.slide {
+    position: relative;
+    max-width: 1024px;
+    max-height: 512px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
+
+.carousel-inner {
+    border-radius: 15px;
+}
+
+.slide img {
+    max-width: 1024px;
+    max-height: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.slide .hovers:hover {
+    transform: scale(1.2)
+}
+
+#color_a {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #000000;
+    background-image: linear-gradient(111deg, rgba(243, 181, 226, 1) 35.7%, rgba(204, 202, 251, 1) 80.2%);
+}
+
+.sugar {
+    margin: 0 auto;
+    width: 350px;
+    height: 40px;
+    border-bottom: 1px solid #000000;
+    margin-top: 100px;
+}
+
+
+/*Content*/
+
+.Content {
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 50px;
+    width: 99%;
+}
+
+.Content .content_hots {
+    height: 100%;
+}
+
+.Content .content_hots a {
+    height: 200px;
+    display: inline-block;
+    position: relative;
+}
+
+.Content a p {
+    width: 150px;
+}
+
+.Content a {
+    text-decoration: none;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.Content img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgba(204, 202, 251, 1);
+    border-radius: 15px;
+}
+
+.Content a:hover {
+    transform: scale(1.1);
+}
+
+.Content .content_sp {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.Content .content_sp a {
+    display: inline-block;
+}
+
+
+/*new*/
+
+.new {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    background-image: url(https://w.ladicdn.com/s350x350/604b824a9064d900205c09d4/3161551-removebg-preview-20210704095754.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/*Footer*/
+
+.Footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
